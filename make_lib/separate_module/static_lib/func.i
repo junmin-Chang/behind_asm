@@ -1,10 +1,10 @@
-# 1 "main.c"
+# 1 "func.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 389 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "main.c" 2
+# 1 "func.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 28 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -824,7 +824,7 @@ extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ )) __attrib
 # 959 "/usr/include/stdio.h" 3 4
 extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
-# 2 "main.c" 2
+# 2 "func.c" 2
 
 int func(int p1, int p2) {
     int p3;
@@ -833,8 +833,4 @@ int func(int p1, int p2) {
     printf("Test: %d\n", p3);
 
     return p3;
-}
-
-int main(void) {
-    func(3,4);
 }
